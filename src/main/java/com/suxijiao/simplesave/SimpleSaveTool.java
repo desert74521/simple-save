@@ -33,6 +33,7 @@ public class SimpleSaveTool {
 				}
 			}
 		}
+		isInitData = true;
 		GlobalLockMap.releaseGlobalWriteLock();
 		
 	}
